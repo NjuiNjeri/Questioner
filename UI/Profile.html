@@ -2,12 +2,18 @@
     <head>
             <link rel="stylesheet" href="Profile.css">
     </head>
-    <body>
-      <h2 style="text-align:center"
-    >User Profile</h2>
+    <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#Meetups">Meetups</a>
+            <a href="#Questionlab">QuestionLab</a>
+            <a href="#Profile">Profile</a>
+            <a href="#logout"> Logout</a>
+    </div>
+    <body><br>
       <div class="card">
+            <h2 style="text-align:center">Create User Profile</h2>
     <h2>Fill  in your information here:</h2>
-            <img src="image" alt="Image Here" style="width: 100%;">
+            <img src="me.jpg" alt="Image Here" style="width: 50%; height: 170Px;">
                 <form enctype="multipart/form-data">
                 <div style="margin: 10px 0; text-align:center;">
                 <input type="file" class="title" style="font-size: 16px; width: 68%;">
@@ -22,9 +28,11 @@
                     <select name="language" style="height: 32px;">
                     <option value="">Choose Programming Language</option>
                     <option value="node-js">Node.js</option>
-                    <option value="angular-js">Angular.js</option>
+                    <option value="angular-js">Python</option>
+                    <option value="c++">C++</option>
                     </select>
                     </div>
+                    <button>Save</button>
                 </form>
                 <div style="margin: 24px 0;">
                     <a href="#"><i class="fa fa-comments-o"></i></a>
