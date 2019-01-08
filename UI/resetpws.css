@@ -63,11 +63,7 @@ form {
   }
   
   .topnav{
-<<<<<<< HEAD
-    background-color: yellowgreen;
-=======
     background-image: url(book2.jpg);
->>>>>>> 5721015e98351d22da69eb48797bb0d23bf375f9
     overflow: hidden;
   }
   .topnav a {
