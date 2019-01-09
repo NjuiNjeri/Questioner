@@ -1,0 +1,31 @@
+body{
+    background-image: url(book2.jpg);
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+}
+.topnav{
+    background-image: url(book2.jpg);
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color:greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: cyan;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: aqua;
+    color: black;
+  }
+  button {
+    background: greenyellow;
+  }
+  

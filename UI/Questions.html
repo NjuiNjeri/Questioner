@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Questions.css">
+    <script src=""></script>
+</head>
+<div class="topnav">
+        <a class="active" href="Home.html">Home</a>
+        <a href="Index.html">Meetups</a>
+        <a href="Questions.html">QuestionLab</a>
+        <a href="Profile.html">Profile</a>
+    </div>
+    <hr>
+<body>
+    <header>Questions</header>
+        <form class="post-question">
+            <label for="ask question"></label>
+            <textarea name="question" id="question" cols="60" rows="2"></textarea><br>
+            <button style="background-color: greenyellow; width: 100px; height: 20px;">Post Question</button>
+        </form>
+    <div class="questions-answers">
+        <div class="question-item-wrapper">
+            <p class="question-item">How exactly does python come into play in bulding robots?</p><hr>
+            <i id="answers">5 Answers given</i>
+        </div>
+        <div class="answers">
+            <div class="answer1">
+                <p>If you dont know that by now you are probably done for in     the future.</p>
+            </div>
+        </div>
+        <div class="answers">
+                <div class="answer2">
+                    <p>It's the easiest programming language for machine learning. Obviously
+                        everyone wants to save time on coding and all.
+                    </p>
+                </div>
+            </div>
+        
+        </div>
+        <div class="answers">
+            <div class="answer3">
+                <p>If we look at the philosophy of the Python language, you can say that this language was built for its readability and less complexity.
+                     You can easily understand it and make someone understand very fast.</p>
+            </div>
+        </div>
+         <div class="upvotes">
+                     <img src="upvote.png" width="40px;" height="30px;" alt="" style="float:left;"><p>+12</p>
+                     <img src="downvote.png" width="40px;" height="30px;" alt="" style="float:left;"><p>-1</p>
+                    </div>
+    </div>
+    <form id="comment-form">
+        <textarea name="question" id="question" cols="50" rows="2"></textarea><br>
+        <button>Comment</button>
+    </form>
+    
+</body>
+</html>
