@@ -1,0 +1,58 @@
+body {
+    color: orangered;
+    text-align: center;
+    padding: 0;
+}
+.pe{
+    float: left;
+    width: calc(100%/3);
+    overflow: hidden;
+    padding: 40px 0;
+}
+.pe img{
+    width: 300px;
+    height: 300px;
+    padding: 35px;
+}
+.p-name{
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.p-name ahref a:hover{
+    background-color: orangered;
+}
+.p-des{
+    font-style: bold;
+    color: black;
+}
+.date {
+    font-style: normal;
+    color: black;
+}
+.time {
+    font-kerning: auto;
+    color: maroon;
+}
+.btn {
+    text-align: left;
+}
+.topnav{
+    background-image: url(book2.jpg);
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color:greenyellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  .topnav a:hover {
+    background-color: cyan;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: aqua;
+    color: black;
+  }
