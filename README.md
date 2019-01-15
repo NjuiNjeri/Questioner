@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/NjuiNjeri/Questionerapi.svg?branch=Develop)](https://travis-ci.com/NjuiNjeri/Questionerapi)
-
 # Questioner
 The ADC project- Life and Death :)
 
